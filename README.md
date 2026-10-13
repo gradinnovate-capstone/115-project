@@ -4,7 +4,7 @@
 
 ## 內容
 
-9 個主題、12 週建議路徑、18 題檢核問題、9 個實作任務與 3 個專題方向：
+學習地圖包含 9 個主題：
 
 1. Attention：Bahdanau attention 與 scaled dot-product attention
 2. Transformer / LLM：Attention Is All You Need、GPT-3
@@ -16,8 +16,8 @@
 8. Decision Models：Decision Transformer、ReAct、Anthropic agent 設計文章
 9. RSI：Gödel Machine、Darwin Gödel Machine
 
-每單元包含原始來源、核心概念、閱讀路徑、實作、交付要求與可展開的問答。
-網站另含文字搜尋、階段篩選、瀏覽器本機進度與 softmax 互動練習。
+每個地圖節點包含原始來源、核心概念與閱讀路徑。
+網站提供文字搜尋與主題篩選；不含進度追蹤、週次安排、互動練習或評量表。
 
 ## 編輯與預覽
 
