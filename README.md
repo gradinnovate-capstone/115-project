@@ -32,8 +32,8 @@ python3 -m http.server 8115 --bind 127.0.0.1 --directory docs
 
 ## GitHub Pages 發佈
 
-預定 repo：`gradinnovate-capstone/115-project`。
-預定網站：`https://gradinnovate-capstone.github.io/115-project/`（不是部署成功宣告）。
+Repo：`gradinnovate-capstone/115-project`。
+網站：`https://gradinnovate-capstone.github.io/115-project/`。
 
 GitHub Pages 使用 **Deploy from a branch → main → /docs**。所有資源使用相對路徑，支援 project Pages 子路徑。每次更新需重新產生並提交 `docs/index.html`，push 後由 Pages 建置。
 

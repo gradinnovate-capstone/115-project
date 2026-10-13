@@ -15,8 +15,9 @@
 
 ## 發佈狀態
 
-本機成品已完成，尚未推送或部署。最新發佈嘗試可讀取組織，但建立 `gradinnovate-capstone/115-project` 時收到 GitHub HTTP 403：
+更新後的 PAT 已成功建立並推送 `gradinnovate-capstone/115-project`，GitHub Pages 已設定為 main 分支的 /docs。
 
-> You need admin access to the organization before adding a repository to it.
+- Repository：https://github.com/gradinnovate-capstone/115-project
+- Pages：https://gradinnovate-capstone.github.io/115-project/
 
-請由有權限的管理員建立 repo 並授予 PAT 存取，或調整組織／PAT 的建立 repo 權限。之後執行 README 的發佈命令，並另行確認 Pages build 與線上 HTTP 狀態。不要把預定網址視為已上線網址。
+每次 push 後需等待 Pages build 完成；部署狀態以 GitHub Pages 與線上網站為準。
