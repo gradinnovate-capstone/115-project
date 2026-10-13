@@ -80,20 +80,11 @@
     "type": "blog"
   },
   {
-    "url": "https://arxiv.org/abs/2106.01345",
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
     "http": 200,
-    "listed_title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
-    "official_title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
-    "match": true,
-    "type": "paper"
-  },
-  {
-    "url": "https://arxiv.org/abs/2210.03629",
-    "http": 200,
-    "listed_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-    "official_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-    "match": true,
-    "type": "paper"
+    "listed_title": "Introducing System One Models & Jev",
+    "page_title": "Introducing System One Models & Jev - TypeSafe AI Blog",
+    "type": "blog"
   },
   {
     "url": "https://arxiv.org/abs/2505.22954",

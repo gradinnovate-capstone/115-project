@@ -275,50 +275,28 @@
   },
   {
     "id": "decision",
-    "title": "Decision Models",
-    "subtitle": "從軌跡學決策，到推理與行動",
+    "title": "Decision Models · Jev",
+    "subtitle": "讓模型輸出程式可用的決策",
     "stage": "Agent 決策",
     "level": "進階",
     "weeks": "W10",
-    "prereq": "Transformer、agent loop、reward / state / action",
-    "intro": "比較三個層次：Decision Transformer 從離線軌跡學策略；ReAct 將推理與行動交錯；工程架構決定如何執行與評估。",
+    "prereq": "分類、機率、API 與流程分支",
+    "intro": "以 TypeSafe 的 Jev 為例，認識專為軟體決策設計的模型：輸入狀態與問題，取得有型別限制的答案與機率，供分類、路由、評分與流程分支使用。",
     "sources": [
       [
-        "Decision Transformer: Reinforcement Learning via Sequence Modeling",
-        "Chen et al. · 2021 · NeurIPS",
-        "https://arxiv.org/abs/2106.01345"
-      ],
-      [
-        "ReAct: Synergizing Reasoning and Acting in Language Models",
-        "Yao et al. · 2022 / ICLR 2023",
-        "https://arxiv.org/abs/2210.03629"
-      ],
-      [
-        "Building effective agents",
-        "Anthropic · 2024 · Blog",
-        "https://www.anthropic.com/engineering/building-effective-agents"
+        "Introducing System One Models & Jev",
+        "Diogo Almeida · TypeSafe · 官方介紹",
+        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
       ]
     ],
     "concepts": [
-      "Decision Transformer 以期望 return、歷史 state 與 action 為條件，使用因果 Transformer 預測行動；核心設定是 offline RL。",
-      "ReAct 將推理與任務行動交錯，讓外部觀察參與後續選擇；它不是 Decision Transformer 的同義詞。",
-      "應比較任務成功率、工具次數、成本與錯誤恢復，不能只看模型輸出是否像在思考。"
+      "Jev 接收狀態與事先定義的問題，輸出受型別限制的決策；系統設計者需先界定可接受的答案與選項。",
+      "模型提供決策訊號，周圍程式負責執行流程、權限與例外處理，可用於工具路由、內容分類或候選評分。",
+      "型別正確不等於判斷正確。信心與機率是否校準，仍需在自己的資料上檢驗；速度與成本也需依實際任務比較。"
     ],
-    "formula": "DT： (R̂₁, s₁, a₁, …, R̂ₜ, sₜ) → aₜ；R̂ₜ 為 return-to-go",
-    "reading": "先理解 DT 的軌跡表示與 return conditioning，再讀 ReAct 的互動案例。最後用工程文章選擇 routing、workflow 或 agent。",
-    "lab": "兩個小實驗：手工建立 3 條軌跡並計算 return-to-go；在固定 10 題文件查詢上，比較固定搜尋流程與動態工具選擇。保留每次操作與環境回應。",
-    "deliverable": "軌跡資料表、兩種決策方式的架構圖、成功率／工具次數／延遲比較。",
-    "questions": [
-      [
-        "把 desired return 設得很大，就會得到更好行動嗎？",
-        "不保證；若超出離線資料支持範圍，條件可能無法泛化。"
-      ],
-      [
-        "ReAct 的文字推理能取代可驗證結果嗎？",
-        "不能。以工具回傳、最終輸出與任務判定為評估證據；文字理由本身不是正確性證明。"
-      ]
-    ],
-    "pitfall": "不要把 DT 的離線策略學習結果直接當作通用 LLM agent 決策能力的證據。"
+    "formula": "狀態 + 型別化問題 → 決策與機率 → 程式分支",
+    "reading": "先讀官方介紹的輸入／輸出比較，再閱讀型別安全、workflow 評估與 Nuance 說明。區分廠商公布的結果、測試條件與自己的使用情境。",
+    "pitfall": "System One 是 TypeSafe 對這類模型的命名。官方效能主張有特定比較條件；輸出符合 schema 不代表答案永遠正確。"
   },
   {
     "id": "rsi",
