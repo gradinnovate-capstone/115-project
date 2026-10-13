@@ -14,7 +14,7 @@
 6. LoRA：低秩參數更新
 7. Learn Claude Code：shareAI-lab 社群教學 repo 與 agent harness
 8. Decision Models：Decision Transformer、ReAct、Anthropic agent 設計文章
-9. RSI：Gödel Machine、Darwin Gödel Machine
+9. RSI：Darwin Gödel Machine
 
 每個地圖節點包含原始來源、核心概念與閱讀路徑。
 網站提供文字搜尋與主題篩選；不含進度追蹤、週次安排、互動練習或評量表。

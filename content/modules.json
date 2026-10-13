@@ -328,13 +328,8 @@
     "level": "研究",
     "weeks": "W11–12",
     "prereq": "Agent、實驗設計、訓練／驗證／測試切分",
-    "intro": "RSI 在此指 Recursive Self-Improvement（遞迴自我改進）。從理論與實驗兩條線閱讀，明確說出系統改了什麼、如何判定改善。",
+    "intro": "RSI 在此指 Recursive Self-Improvement（遞迴自我改進）。以 Darwin Godel Machine 為例，理解 agent 如何修改自身程式，並用實驗檢查是否改善。",
     "sources": [
-      [
-        "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
-        "Jürgen Schmidhuber · 2003 預印本",
-        "https://arxiv.org/abs/cs/0309048"
-      ],
       [
         "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
         "Zhang et al. · 2025 預印本",
@@ -342,12 +337,12 @@
       ]
     ],
     "concepts": [
-      "Gödel Machine 是以形式證明作為自我重寫條件的理論框架；保證依賴公理、效用與可證明性等設定。",
+      "先明確定義可修改的部分、評分方式與接受條件，才能判斷一次自我修改是否帶來改善。",
       "Darwin Gödel Machine 以修改 coding agent 程式與實驗評估探索改進，保存候選 archive，而非替每次修改提供形式證明。",
       "需區分改提示、改工具／程式、改模型權重與改進改進器本身；觀察到分數提升不代表已證明無界 RSI。"
     ],
     "formula": "候選版本 → 修改 → 固定評估 → 保留／淘汰 → 下一輪",
-    "reading": "先把兩篇論文的接受修改條件列成表，再檢查 DGM 的 benchmark、消融與實驗邊界。不要把理論最優性直接套到實驗系統。",
+    "reading": "聚焦 Darwin Godel Machine 的候選產生、archive 與評估流程，檢查 benchmark、消融與實驗邊界，區分觀察到的改善與尚未被支持的推論。",
     "lab": "建立最多 3 輪的改進實驗，每輪只修改一個工具描述或檢索設定。用開發集挑選候選，最後只在保留測試集評估一次；保留所有失敗版本。",
     "deliverable": "版本樹、固定評分器、開發／測試題目切分、每輪成本與得分、可否宣稱改善的結論。",
     "questions": [
