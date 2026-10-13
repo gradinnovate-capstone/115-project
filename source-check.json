@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "http": 200,
+    "listed_title": "Attention Is All You Need",
+    "official_title": "Attention Is All You Need",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.14165",
+    "http": 200,
+    "listed_title": "Language Models are Few-Shot Learners",
+    "official_title": "Language Models are Few-Shot Learners",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://github.com/karpathy/nanoGPT",
+    "http": 200,
+    "listed_title": "karpathy / nanoGPT",
+    "full_name": "karpathy/nanoGPT",
+    "canonical_url": "https://github.com/karpathy/nanoGPT",
+    "match": true,
+    "archived": false,
+    "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+    "type": "repo"
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.11401",
+    "http": 200,
+    "listed_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "official_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://arxiv.org/abs/2404.16130",
+    "http": 200,
+    "listed_title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "official_title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://github.com/microsoft/graphrag",
+    "http": 200,
+    "listed_title": "microsoft / graphrag",
+    "full_name": "microsoft/graphrag",
+    "canonical_url": "https://github.com/microsoft/graphrag",
+    "match": true,
+    "archived": false,
+    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+    "type": "repo"
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.09685",
+    "http": 200,
+    "listed_title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "official_title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "http": 200,
+    "listed_title": "shareAI-lab / learn-claude-code",
+    "full_name": "shareAI-lab/learn-claude-code",
+    "canonical_url": "https://github.com/shareAI-lab/learn-claude-code",
+    "match": true,
+    "archived": false,
+    "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+    "type": "repo"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "http": 200,
+    "listed_title": "Building effective agents",
+    "page_title": "Building Effective AI Agents \\ Anthropic",
+    "type": "blog"
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.01345",
+    "http": 200,
+    "listed_title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+    "official_title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.03629",
+    "http": 200,
+    "listed_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "official_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://arxiv.org/abs/cs/0309048",
+    "http": 200,
+    "listed_title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "official_title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "match": true,
+    "type": "paper"
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.22954",
+    "http": 200,
+    "listed_title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "official_title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "match": true,
+    "type": "paper"
+  }
+]
