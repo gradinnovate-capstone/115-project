@@ -6,7 +6,7 @@
 
 學習地圖包含 9 個主題：
 
-1. Attention：Bahdanau attention 與 scaled dot-product attention
+1. Attention：scaled dot-product attention 與 multi-head attention
 2. Transformer / LLM：Attention Is All You Need、GPT-3
 3. nanoGPT：訓練、驗證與生成
 4. RAG：檢索與生成分開評估
